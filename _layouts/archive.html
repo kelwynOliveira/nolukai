@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home wrapper archive-my-css">
+  <div class="post-heading-my-css">
+    <h1 class="post-list-heading">{{ page.title | capitalize}}</h1>
+  </div>
+
+
+  <ul class="post-list post-list-my-css">
+    {% for post in page.posts %}
+    <li>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.image-alt }}">
+        <div>
+          <h3 class="post-title-my-css">{{ post.title | escape }}</h3>
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>

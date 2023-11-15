@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="home wrapper">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+  {%- include posts-presentation/category.html -%}
+  {%- endif -%}
+</div>

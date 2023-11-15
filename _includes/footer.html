@@ -1,0 +1,21 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
+
+  <div class="container">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <a class="" rel="author" href="{{ " /" | relative_url }}">
+          <h2 class="footer-heading">{{ site.title | escape }}</h2>
+        </a>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        {%- include social.html -%}
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Suporte para modo matemático -->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>

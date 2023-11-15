@@ -1,0 +1,16 @@
+---
+layout: none
+---
+[{% for post in site.posts %}
+  {
+    "title"    : "{{ post.title | remove: '\' | escape}}",
+    "category" : "{{ post.category }}",
+    "tags"     : "{{ post.tags | join: ', ' }}",
+    "url"      : "{{ site.baseurl }}{{ post.url }}",
+    "date"     : {
+      "day": "{{ post.date | date: '%d' }}",
+      "month": "{{ post.date | date: '%B' }}",
+      "year": "{{ post.date | date: '%y' }}"
+    }
+  } {% unless forloop.last %},{% endunless %}{% endfor %}
+]
