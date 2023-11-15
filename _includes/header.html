@@ -7,7 +7,3 @@
 
   </div>
 </header>
-
-{%- for category in site.categories -%}
-<a class="page-link" href="{{ "/category/" | append: category[0] | replace: " ", "-" | relative_url }}">{{ category }}</a>
-{%- endfor -%}
