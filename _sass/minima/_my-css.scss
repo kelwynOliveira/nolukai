@@ -113,6 +113,7 @@
 // Search
 .search-form{
   #search-box{
+    width: -webkit-calc(100% - 80px);
     width: calc(100% - 80px);
     height: 40px;
     border-radius: 20px 0 0 20px;
