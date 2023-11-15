@@ -19,23 +19,26 @@ comments: true
         </ul>
 
         <div class="post-infos">
-          <p class="post-meta">
-            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              {{ page.date | date: date_format }}
-            </time>
+          <img class="perfil-photo" src="{{ 'assets/kelwyn-oliveira-perfil.png' | relative_url }}" alt="">
+          <div class="post-meta">
             {%- if site.author or page.author -%}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <span class="p-author h-card" itemprop="name">
                 {%- if page.author  -%}
-                  {{ page.author.name }}
+                  <a class="p-author" href="{{ page.author.url }}" target="_blank">{{ page.author.name }}</a>
                 {%- else -%}
-                  {{ site.author.name }}
+                  <a class="p-author" href="{{ site.author.url }}" target="_blank">{{ site.author.name }}</a>
                 {%- endif -%}
               </span>
             </span>
+            <span>
+              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+              </time>
+            </span>
             {%- endif -%}
-          </p>
+          </div>
         </div>
       </div>
     </div>
