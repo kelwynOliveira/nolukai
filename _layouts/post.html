@@ -5,7 +5,7 @@ comments: true
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   
-  <header class="post-header" style="background-image: url({{ page.image }});">
+  <header class="post-header" style="background-image: url({{ page.image | relative_url }});">
     <!-- {%- include breadcrumbs.html -%} -->
 
     <div class="container">
@@ -15,7 +15,7 @@ comments: true
 
 <ul>
   {%- for tag in page.tags -%}
-  <a href="{{ "/tag/" | append: tag |  replace: " ", "-"  | relative_url }}"><li>{{ tag | escape | capitalize }}</li></a>
+  <a href='{{ "/tag/" | append: tag |  replace: " ", "-"  | relative_url }}'><li>{{ tag | escape | capitalize }}</li></a>
   {%- endfor -%}
 </ul>
 
