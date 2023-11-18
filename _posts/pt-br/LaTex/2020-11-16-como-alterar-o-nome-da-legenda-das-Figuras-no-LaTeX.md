@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Como alterar o nome da legenda das Figuras no LaTeX"
 date: 2020-11-16 18:00:00 -0400
 description: "Neste artigo você descobre como alterar o nome da legenda das Figuras no LaTeX."
-image: "/assets/LaTeX/thumb/thumb-como-alterar-o-prefixo-das-legendas-de-figuras-no-latex.jpg"
+image: "/assets/LaTeX/thumb/thumb-como-alterar-o-prefixo-das-legendas-de-figuras-no-latex.png"
 category: LaTeX
 tags: LaTeX
 ---

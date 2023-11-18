@@ -4,7 +4,7 @@ lang: pt-BR
 title: 'Por que o \label tem que vir depois do \caption?'
 date: 2020-11-18 18:00:00 -0400
 description: "Neste artigo você descobre por que o \\label tem que vir depois do \\caption."
-image: "/assets/LaTeX/thumb/thumb-por-que-o-label-deve-vir-depois-de-caption-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-por-que-o-label-deve-vir-depois-de-caption-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---

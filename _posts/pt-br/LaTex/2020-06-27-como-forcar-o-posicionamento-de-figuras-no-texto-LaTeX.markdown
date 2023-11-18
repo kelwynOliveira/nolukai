@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Como forçar o posicionamento de figuras no texto LaTeX"
 date: 2020-06-27 18:00:00 -0400
 description: "Neste artigo você descobre como forçar o posicionamento de figuras no texto LaTeX."
-image: "/assets/LaTeX/thumb/thumb-como-posicionar-figuras-no-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-como-posicionar-figuras-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---

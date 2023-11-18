@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Como recuar um parágrafo inteiro no LaTeX"
 date: 2021-02-16 18:00:00 -0400
 description: "Neste artigo você descobre como recuar um parágrafo inteiro no LaTeX."
-image: "/assets/LaTeX/thumb/thumb-recuo-de-paragrafo-no-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-recuo-de-paragrafo-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---

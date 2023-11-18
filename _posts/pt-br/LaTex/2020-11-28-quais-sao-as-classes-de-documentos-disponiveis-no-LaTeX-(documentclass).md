@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Quais são as classes de documentos disponíveis no LaTeX? (documentclass)"
 date: 2020-11-28 18:00:00 -0400
 description: "Neste artigo você descobre quais são as classes de documentos disponíveis no LaTeX? (documentclass)."
-image: "/assets/LaTeX/thumb/thumb-classes-de-documentos-no-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-classes-de-documentos-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---

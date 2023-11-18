@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Como inserir espaços depois de comandos no LaTeX"
 date: 2020-07-19 18:00:00 -0400
 description: "Neste artigo você descobre como inserir espaços depois de comandos no LaTeX."
-image: "/assets/LaTeX/thumb/thumb-insercao-de-espacos-depois-de-comandos-no-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-insercao-de-espacos-depois-de-comandos-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---

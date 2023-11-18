@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Como alterar a orientação de páginas no LaTeX para paisagem (horizontal)"
 date: 2020-08-10 18:00:00 -0400
 description: "Neste artigo você descobre como alterar a orientação de páginas no LaTeX para paisagem (horizontal)"
-image: "/assets/LaTeX/thumb/thumb-como-alterar-a-orientacao-de-algumas-paginas-no-LaTeX-para-paisagem-(horizontal).jpg"
+image: "/assets/LaTeX/thumb/thumb-como-alterar-a-orientacao-de-algumas-paginas-no-LaTeX-para-paisagem-(horizontal).png"
 category: LaTeX
 tags: LaTeX
 ---

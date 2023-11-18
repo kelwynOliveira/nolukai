@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Como alterar o tamanho do papel no meio do documento LaTeX"
 date: 2021-04-23 18:00:00 -0400
 description: "Neste artigo você descobre como alterar o tamanho do papel no meio do documento LaTeX."
-image: "/assets/LaTeX/thumb/thumb-alterar-tamanho-do-papel-no-meio-do-documento-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-alterar-tamanho-do-papel-no-meio-do-documento-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---

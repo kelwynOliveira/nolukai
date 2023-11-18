@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Como adicionar um espaço vertical no início da página no LaTeX"
 date: 2020-09-27 18:00:00 -0400
 description: "Neste artigo você descobre como adicionar um espaço vertical no início da página no LaTeX."
-image: "/assets/LaTeX/thumb/thumb-espaco-vertical-no-inicio-da-pagina-no-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-espaco-vertical-no-inicio-da-pagina-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---

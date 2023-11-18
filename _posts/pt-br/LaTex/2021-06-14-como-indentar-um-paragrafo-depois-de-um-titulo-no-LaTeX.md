@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Como indentar um parágrafo depois de um título no LaTeX"
 date: 2021-06-14 18:00:00 -0400
 description: "Neste artigo você descobre como indentar um parágrafo depois de um título no LaTeX."
-image: "/assets/LaTeX/thumb/thumb-indentacao-do-paragrafo-depois-de-um-titulo-no-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-indentacao-do-paragrafo-depois-de-um-titulo-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---

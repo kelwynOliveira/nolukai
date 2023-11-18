@@ -4,7 +4,7 @@ lang: pt-BR
 title: 'Devo utilizar \input ou \include no LaTeX?'
 date: 2020-06-13 18:00:00 -0400
 description: "Neste artigo você descobre qual forma de incluir arquivo você deve utilizar no LaTeX se \\input ou \\include."
-image: "/assets/LaTeX/thumb/thumb-input-ou-include-Importacao-de-documento-externo-no-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-input-ou-include-Importacao-de-documento-externo-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---

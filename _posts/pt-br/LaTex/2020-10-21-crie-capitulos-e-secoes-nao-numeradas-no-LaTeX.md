@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Crie capítulos e seções não numeradas no LaTeX"
 date: 2020-10-21 18:00:00 -0400
 description: "Neste artigo você descobre com crie capítulos e seções não numeradas no LaTeX."
-image: "/assets/LaTeX/thumb/thumb-capitulos-e-secoes-nao-numeradas-no-LaTeX-e-que-aparecam-no-sumario-e-cabecalho.jpg"
+image: "/assets/LaTeX/thumb/thumb-capitulos-e-secoes-nao-numeradas-no-LaTeX-e-que-aparecam-no-sumario-e-cabecalho.png"
 category: LaTeX
 tags: LaTeX
 ---

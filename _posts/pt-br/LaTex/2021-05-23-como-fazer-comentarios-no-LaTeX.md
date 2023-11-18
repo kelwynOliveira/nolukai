@@ -4,7 +4,7 @@ lang: pt-BR
 title: "Como fazer comentários no LaTeX"
 date: 2021-05-23 18:00:00 -0400
 description: "Neste artigo você descobre como fazer comentários no LaTeX."
-image: "/assets/LaTeX/thumb/thumb-comentarios-no-LaTeX.jpg"
+image: "/assets/LaTeX/thumb/thumb-comentarios-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
 ---
