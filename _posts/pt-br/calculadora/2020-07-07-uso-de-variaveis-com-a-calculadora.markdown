@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como usar variáveis em seus cálculos
 image: "/assets/calculadora/thumb/thumb-calculadora-variaeis-na-calculadora.png"
 category: calculadora científica
 tags: calculadora
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Neste artigo vou falar sobre o uso de variáveis com a calculadora.
@@ -18,9 +19,12 @@ Muita gente que tem uma calculadora científica sabe que é possível utilizar v
 Então para você não ser uma delas basta seguir com a leitura. Saiba que o uso de variáveis da sua calculadora pode te ajudar a ir mais rápido com os cálculos.
 
 <!-- Youtube Video -->
-<a href="https://youtu.be/c5nmNTXGIi4" target="_blank">
-  ![Thumbnail of youtube video Como usar VARIÁVEIS na calculadora científica]({{ "/assets/calculadora/thumb-youtube-variaveis.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c5nmNTXGIi4?si=8fayymtwQONPBtC_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+{%- include subscribe-channel.html -%}
+
 
 ## Limpeza da memória
 

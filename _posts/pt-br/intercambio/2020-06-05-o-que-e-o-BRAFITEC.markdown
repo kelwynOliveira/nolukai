@@ -7,6 +7,7 @@ description: "Neste artigo você descobre a duração do BRAFITEC, quanto tempo 
 image: "/assets/intercambio/thumb/thumb-o-que-e-o-brafitec.png"
 category: intercâmbio
 tags: Intercâmbio
+channel-id: UCui2H3_u85d_iKF-Xd-txrQ
 ---
 
 O BRAFITEC (BRasil France Ingénieur TEChnologie) é um programa de intercâmbio entre estudantes de engenharia de universidades brasileiras e francesas.
@@ -20,6 +21,11 @@ Mas sendo bem sincero, este artigo tem informações valiosas para quem quer ent
 <div class="yt-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZtSi7DnV1yk?si=vYY3fgwlFpLCqdVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
+
+{%- include subscribe-channel.html -%}
 
 ## Quem banca o intercâmbio?
 

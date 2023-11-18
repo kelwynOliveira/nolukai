@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como fazer cálculos de sistemas e con
 image: "/assets/calculadora/thumb/thumb-sistema-de-segundo-grau-com-a-calculadora.png"
 category: calculadora científica
 tags: calculadora
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Neste artigo vou falar sobre como realizar o cálculo de um sistema de segundo grau com a calculadora científica mesmo que ela não apresente essa função por padrão.
@@ -14,9 +15,12 @@ Neste artigo vou falar sobre como realizar o cálculo de um sistema de segundo g
 Mas isso é uma funcionalidade que apenas algumas calculadoras podem apresentar, e pra ativar é preciso seguir uma sequência de passos.
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=lxmPNgYD1Ls" target="_blank">
-  ![Thumbnail of youtube video Como calcular SISTEMA DE SEGUNDO GRAU na calculadora científica]({{ "/assets/calculadora/thumb-youtube-sistemas-2-grau.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lxmPNgYD1Ls?si=r32rNpJOq-YGm8P5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+{%- include subscribe-channel.html -%}
+
 
 Então para saber se a sua calculadora tem essa possibilidade veja se na parte traseira dela existe este símbolo:
 

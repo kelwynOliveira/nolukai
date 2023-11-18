@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como realizar cálculos sexagesimais (
 image: "/assets/calculadora/thumb/thumb-calculadora-graus-horas-minutos-e-segundos.png"
 category: calculadora científica
 tags: calculadora
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Neste artigo vou falar sobre como utilizar graus, minutos e segundos para realização de cálculos na calculadora científica.
@@ -16,9 +17,12 @@ Mas aqui você também descobrirá como realizar a conversão entre valores deci
 As instruções aqui apresentadas são para as calculadoras nos modelos da CASIO FX-82MS, FX-83MS, FX-85MS, FX-270MS, FX-300MS e FX-350MS, apesar disso, alguns outros modelos não citados podem apresentar semelhanças.
 
 <!-- Youtube Video -->
-<a href="https://youtu.be/Kjbmc53ZxqE" target="_blank">
-  ![Thumbnail of youtube video Como fazer cálculos com Graus, Minutos e Segundos - Calculadora Científica]({{ "/assets/calculadora/thumb-youtube-graus-minutos-segundos.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kjbmc53ZxqE?si=bZEgIHc5az-7Z52X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+{%- include subscribe-channel.html -%}
+
 
 Primeiramente precisamos localizar este botão na calculadora. Na imagem abaixo você vê a localização do botão que apresenta essa instrução.
 

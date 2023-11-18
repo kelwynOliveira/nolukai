@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como indentar um parágrafo depois de 
 image: "/assets/LaTeX/thumb/thumb-indentacao-do-paragrafo-depois-de-um-titulo-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 De acordo com o padrão do LaTeX (EUA), o primeiro parágrafo depois de um título não sofre indentação. Mas e em textos em português? Como indentar um parágrafo depois de um título no LaTeX?
@@ -15,6 +16,9 @@ De acordo com o padrão do LaTeX (EUA), o primeiro parágrafo depois de um títu
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/uQrUz_3zyWc?si=F5V2MMOgaXSBgz7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 Você vai precisar verificar se está usando alguns pacotes no seu documento:
 

@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como realizar calculos de regressão c
 image: "/assets/calculadora/thumb/thumb-calculadora-regressao.png"
 category: calculadora científica
 tags: calculadora
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 
@@ -15,9 +16,12 @@ O objetivo deste artigo é te mostrar como realizar o cálculos de regressão co
 As instruções que você verá aqui são para as calculadoras no modelo da CASIO FX-82MS, FX-83MS, FX-85MS, FX-270MS, FX-300MS, FX-350MS, mas é possível haver alguma semelhança com outros modelos.
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=FkeTWdtbJ_g" target="_blank">
-  ![Thumbnail of youtube video Como calcular REGRESSÃO na calculadora científica]({{ "/assets/calculadora/thumb-youtube-regressao.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FkeTWdtbJ_g?si=RqxtXlX0enLHRSMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+{%- include subscribe-channel.html -%}
+
 
 Para realizar esse tipo de cálculo estatístico primeiramente precisamos alterar o modo de cálculo.
 

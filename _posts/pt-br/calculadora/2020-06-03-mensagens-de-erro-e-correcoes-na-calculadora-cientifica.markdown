@@ -10,6 +10,7 @@ category: calculadora científica
 tags: 
   - calculadora
   - escola
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Neste artigo vou falar sobre as mensagens de erro que podem aparecer e das formas de correções.
@@ -21,9 +22,11 @@ Existem basicamente 4 (quatro) mensagens de erro que podem aparecer nesses model
 Vamos falar agora sobre as mensagens de erro
 
 <!-- Youtube Video -->
-<a href="https://youtu.be/rVkMxFPDfSgk" target="_blank">
-  ![Thumbnail of youtube video Mensagens de erro e correções - Calculadora Científica]({{ "/assets/calculadora/thumb-youtube-mensagem-de-erro.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rVkMxFPDfSg?si=atUYva6YXtnVnH-p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+{%- include subscribe-channel.html -%}
 
 ## Math ERROR
 

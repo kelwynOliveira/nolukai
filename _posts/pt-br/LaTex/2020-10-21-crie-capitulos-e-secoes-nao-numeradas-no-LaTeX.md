@@ -7,6 +7,7 @@ description: "Neste artigo você descobre com crie capítulos e seções não nu
 image: "/assets/LaTeX/thumb/thumb-capitulos-e-secoes-nao-numeradas-no-LaTeX-e-que-aparecam-no-sumario-e-cabecalho.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Apesar de não ser o padrão, você pode inserir capítulos e seções não numeradas no LaTeX.
@@ -17,6 +18,9 @@ Em alguns casos, como na introdução de documentos, é comum que a gente insira
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/ACEGcMAdyro?si=jaTvRibuGC0brRXF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 ## Como criar itens não numerados no LaTeX
 

@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como recuar um parágrafo inteiro no L
 image: "/assets/LaTeX/thumb/thumb-recuo-de-paragrafo-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Aprenda três maneiras de recuar um parágrafo inteiro no LaTeX.
@@ -15,6 +16,9 @@ Aprenda três maneiras de recuar um parágrafo inteiro no LaTeX.
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/SS5bQSSqtMI?si=FutyHPoulOpxhZgh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 ## 1. Recuo de parágrafo com ambiente minipage
 

@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como alterar o tamanho do papel no mei
 image: "/assets/LaTeX/thumb/thumb-alterar-tamanho-do-papel-no-meio-do-documento-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Já se perguntou como alterar o tamanho do papel no meio do documento LaTeX?
@@ -15,6 +16,9 @@ Já se perguntou como alterar o tamanho do papel no meio do documento LaTeX?
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/cRNMtmYU0FM?si=h6dAm9Lnxue8hsiD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 Se você quer alterar o tamanho de um documento pra imprimir uma só página diferente do restante do documento.
 

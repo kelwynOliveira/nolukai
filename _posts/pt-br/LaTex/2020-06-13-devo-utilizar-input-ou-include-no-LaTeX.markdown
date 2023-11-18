@@ -7,6 +7,7 @@ description: "Neste artigo você descobre qual forma de incluir arquivo você de
 image: "/assets/LaTeX/thumb/thumb-input-ou-include-Importacao-de-documento-externo-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Para organizar documentos, é comum utilizar \\input ou \\include no LaTeX.
@@ -17,6 +18,9 @@ Apesar de terem a mesma função, que é importar um arquivo e o incluir no docu
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/tpYTt6QghaM?si=ZVxXdVPxqfALSE1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 ## Comando \\input
 

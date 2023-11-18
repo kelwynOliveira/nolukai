@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como inserir espaços depois de comand
 image: "/assets/LaTeX/thumb/thumb-insercao-de-espacos-depois-de-comandos-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Se você ainda não sabe como inserir espaços depois de comandos no LaTeX, já deve ter percebido um problema.
@@ -17,6 +18,9 @@ O que acontece é que o LaTeX ignora os espaços digitados e insere o próximo c
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/F2TbHIgUyEo?si=95Uq3KFnSefo0lEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 Para criar esse espaço, você precisa informar ao compilador do LaTeX para parar a varredura do comando.
 

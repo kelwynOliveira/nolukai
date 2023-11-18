@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como alterar a orientação de página
 image: "/assets/LaTeX/thumb/thumb-como-alterar-a-orientacao-de-algumas-paginas-no-LaTeX-para-paisagem-(horizontal).png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Se você quer saber como alterar a orientação das páginas para o modo de paisagem (horizontal) no LaTeX, você está no lugar certo!
@@ -17,6 +18,9 @@ Neste artigo, vamos te mostrar duas maneiras diferentes - utilizando pacotes dif
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/PY18DEa77Fo?si=TMv_c7L45WUajpHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 ## Utilizando o pacote **lscape**
 

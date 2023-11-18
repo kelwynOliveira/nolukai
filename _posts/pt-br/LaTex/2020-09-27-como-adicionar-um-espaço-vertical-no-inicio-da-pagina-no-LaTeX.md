@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como adicionar um espaço vertical no 
 image: "/assets/LaTeX/thumb/thumb-espaco-vertical-no-inicio-da-pagina-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Se estiver utilizando o LaTeX, saiba que existe um jeito muito simples de adicionar um espaço vertical no início de uma página com o comando `\vspace`.
@@ -25,6 +26,9 @@ Você pode utilizar várias unidades de medida, mas a mais comum é em centímet
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/RBKS7G4ffts?si=r0zfflH2Bej9xpES" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 ## Veja um exemplo de **como não fazer**:
 

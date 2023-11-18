@@ -7,12 +7,16 @@ description: "Neste artigo você descobre como forçar o posicionamento de figur
 image: "/assets/LaTeX/thumb/thumb-como-posicionar-figuras-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 <!-- Youtube Video -->
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/Sx-GIargq6o?si=09auFYgauzoOBuYx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 Antes de te mostrar como, é legal que você saiba que é comum que o LaTeX insira uma figura, no PDF final, em um lugar diferente do que você imaginou quando escreveu o código.
 

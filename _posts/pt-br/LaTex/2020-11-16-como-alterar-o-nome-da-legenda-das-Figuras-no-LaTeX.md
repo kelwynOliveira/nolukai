@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como alterar o nome da legenda das Fig
 image: "/assets/LaTeX/thumb/thumb-como-alterar-o-prefixo-das-legendas-de-figuras-no-latex.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Quando utilizamos o comando `\caption` para gerar legendas no LaTeX, ele automaticamente insere o prefixo "Figura" no início da legenda. Mas em alguns casos não queremos esse prefixo na legenda. E aqui você vai entender como é possível alterar esse prefixo para qualquer outro nome na legenda das Figuras do seu código em LaTeX.
@@ -17,6 +18,9 @@ Não se preocupe. É muito simples.
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/ZqLbdgGIFC0?si=-ycLGefiv-w2k3Sp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 Você pode ver aqui embaixo todo o código padrão que usamos para gerar uma legenda no LaTeX, e que provavelmente é o código que você costuma usar também:
 

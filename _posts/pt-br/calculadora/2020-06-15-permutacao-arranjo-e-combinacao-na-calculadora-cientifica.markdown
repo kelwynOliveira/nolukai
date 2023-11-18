@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como realizar calculos de permutação
 image: "/assets/calculadora/thumb/thumb-permutacao-arranjo-e-combinacao-na-calculadora-cientifica.png"
 category: calculadora científica
 tags: calculadora
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Neste artigo vou falar sobre como realizar cálculos de permutação, arranjo e combinação na calculadora científica.
@@ -118,9 +119,11 @@ Obtemos o resultado 25 arranjos possíveis.
 ## Combinação
 
 <!-- Youtube Video -->
-<a href="https://youtu.be/BU9GYgEAnoU" target="_blank">
-  ![Thumbnail of youtube video Mensagens de erro e correções - Calculadora Científica]({{ "/assets/calculadora/thumb-youtube-combinacao.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BU9GYgEAnoU?si=-IBrEd33ih1mCI4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+{%- include subscribe-channel.html -%}
 
 Quando falamos de combinação, diferente de arranjo e permutação, a ordem que os elementos estão dispostos não importa.
 

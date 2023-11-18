@@ -7,6 +7,7 @@ description: "Neste artigo você descobre quais são as classes de documentos di
 image: "/assets/LaTeX/thumb/thumb-classes-de-documentos-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Conheça as classes de documentos disponíveis no LaTeX ou **documentclass**.
@@ -15,6 +16,9 @@ Conheça as classes de documentos disponíveis no LaTeX ou **documentclass**.
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/m3xnxEhVL-c?si=1weh-64DBaxtojCP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 `\documentclass` é o primeiro comando a ser informado quando criamos um novo documento. É o comando que especifica qual é o tipo de documento que será escrito.
 

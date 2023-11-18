@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como configurar a forma de exibição 
 image: "/assets/calculadora/thumb/thumb-calculadora-formas-de-apresentacao.png"
 category: calculadora científica
 tags: calculadora
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Neste artigo vou falar sobre como configurar a forma de exibição de resultados na calculadora.
@@ -22,9 +23,11 @@ Além disso você descobrirá como configurar a forma de exibição de resultado
 As instruções aqui apresentadas são para as calculadoras nos modelos da CASIO FX-82MS, FX-83MS, FX-85MS, FX-270MS, FX-300MS e FX-350MS, mas alguns outros modelos não citados podem apresentar semelhanças.
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=uD7ssZfTXTQ" target="_blank">
-  ![Thumbnail of youtube video Como configurar a EXIBIÇÃO DE RESULTADOS na calculadora científica]({{ "/assets/calculadora/thumb-youtube-apresentacao-de-resultados.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uD7ssZfTXTQ?si=FkG6MAHrvmAC5m-_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+{%- include subscribe-channel.html -%}
 
 ## Número fixo de casas decimais (Modo Fix)
 

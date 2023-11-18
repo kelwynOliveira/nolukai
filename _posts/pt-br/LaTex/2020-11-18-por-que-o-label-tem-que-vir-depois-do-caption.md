@@ -7,6 +7,7 @@ description: "Neste artigo você descobre por que o \\label tem que vir depois d
 image: "/assets/LaTeX/thumb/thumb-por-que-o-label-deve-vir-depois-de-caption-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 No LaTeX, a ordem dos fatores altera sim o produto. Para que você **não se depare com erros na legenda da sua imagem**, eu vou responder a dúvida de um Estudante: por que o `\label` tem que vir sempre depois do `\caption`?
@@ -17,6 +18,9 @@ A resposta para isso é bem simples. Veja como o LaTeX interpreta cada um desses
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/ZPfOo5l0v2k?si=mF3TgksVBGhaat4J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 O comando `\caption` é responsável por **gerar a numeração**. Imagine isso como a geração de um \"endereço\". Por exemplo, uma figura.
 

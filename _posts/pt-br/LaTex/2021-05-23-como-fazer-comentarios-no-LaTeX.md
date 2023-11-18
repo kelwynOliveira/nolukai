@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como fazer comentários no LaTeX."
 image: "/assets/LaTeX/thumb/thumb-comentarios-no-LaTeX.png"
 category: LaTeX
 tags: LaTeX
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 Os comentários servem para que você entenda o que fez no código mesmo que passe muito tempo longe dele e são uma prática excelente! Mas então como fazer comentários no LaTeX?
@@ -15,6 +16,9 @@ Os comentários servem para que você entenda o que fez no código mesmo que pas
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/x43MWDXQ-zQ?si=DT2cRPU3lGVWse5N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+{%- include subscribe-channel.html -%}
+
 
 ## Como fazer um comentário no LaTeX
 

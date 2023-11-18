@@ -1,0 +1,23 @@
+<style>
+  .subscribe-yt{
+    margin: 15px 0;
+    display: flex;
+    gap: 15px;
+  }
+  .subscribe-yt p{
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+</style>
+
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="subscribe-yt">
+  {%- if page.lang == "pt-BR" -%}
+  <p>Inscreva-se: </p>
+  {%- else -%}
+  <p>Subscribe: </p>
+  {%- endif -%}
+  <div class="g-ytsubscribe" data-channelid="{{ page.channel-id }}" data-layout="default" data-count="default"></div>
+  <!-- <div class="g-ytsubscribe" data-channelid="{{ page.channel-id }}" data-layout="full" data-theme="dark" data-count="hidden"></div> -->
+</div>

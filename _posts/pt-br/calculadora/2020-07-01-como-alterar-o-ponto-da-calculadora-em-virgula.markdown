@@ -7,6 +7,7 @@ description: "Neste artigo você descobre como alterar o separador decimal da su
 image: "/assets/calculadora/thumb/thumb-caluladora-ponto-e-virgula-decimal.png"
 category: calculadora científica
 tags: calculadora
+channel-id: UCYUU9jqWR41rkRXBQHBdbtw
 ---
 
 O objetivo deste artigo é te mostrar como alterar o ponto da calculadora em vírgula, aquele usado para separar os decimais.
@@ -16,9 +17,12 @@ Se você tem uma calculadora científica é provável que já tenha se perguntad
 As instruções que você verá aqui são para as calculadoras no modelo da CASIO FX-82MS, FX-83MS, FX-85MS, FX-270MS, FX-300MS, FX-350MS, mas é possível que existam algumas semelhanças com outros modelos.
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=P3z1txZ5IO8" target="_blank">
-  ![Thumbnail of youtube video Como ALTERAR o PONTO pela VÍRGULA decimal - Calculadora Científica]({{ "/assets/calculadora/thumb-youtube-virgula-decimal.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P3z1txZ5IO8?si=0XHpsUwuAg3I8T6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+{%- include subscribe-channel.html -%}
+
 
 A calculadora tem como configuração padrão a exibição do ponto como separador decimal.
 
