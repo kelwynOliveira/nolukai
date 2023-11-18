@@ -22,9 +22,9 @@ Você pode utilizar várias unidades de medida, mas a mais comum é em centímet
 **Mas cuidado!** Se você adicionar esse comando logo no início da página, ele vai ser **completamente ignorado** pelo LaTeX.
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=RBKS7G4ffts" target="_blank">
-  ![Thumbnail of youtube video Espaço vertical no início da página no LaTeX]({{ "/assets/LaTeX/thumb-youtube-espaco-vertical-no-inicio-da-pagina-no-LaTeX.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RBKS7G4ffts?si=r0zfflH2Bej9xpES" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Veja um exemplo de **como não fazer**:
 

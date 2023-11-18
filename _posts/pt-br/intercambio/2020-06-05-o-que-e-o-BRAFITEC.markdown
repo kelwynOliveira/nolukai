@@ -17,9 +17,9 @@ Aqui embaixo tem um vídeo que fiz pro meu canal do YouTube e ele fala justament
 Mas sendo bem sincero, este artigo tem informações valiosas para quem quer entender melhor o programa, então eu aconselho você a continuar lendo. Então vamos logo para o assunto.
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=ZtSi7DnV1yk" target="_blank">
-  ![Thumbnail of youtube video O QUE É O BRAFITEC?]({{ "/assets/intercambio/o-que-e-o-brafitec-thumbnail.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZtSi7DnV1yk?si=vYY3fgwlFpLCqdVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Quem banca o intercâmbio?
 

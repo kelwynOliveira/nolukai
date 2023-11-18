@@ -14,9 +14,9 @@ Quando utilizamos o comando `\caption` para gerar legendas no LaTeX, ele automat
 Não se preocupe. É muito simples.
 
 <!-- Youtube Video -->
-<a href="https://youtu.be/ZqLbdgGIFC0" target="_blank">
-  ![Thumbnail of youtube video Como alterar o prefixo das legendas de figuras no LaTeX]({{ "/assets/LaTeX/thumb-youtube-como-alterar-o-prefixo-das-legendas-de-figuras-no-latex.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZqLbdgGIFC0?si=-ycLGefiv-w2k3Sp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 Você pode ver aqui embaixo todo o código padrão que usamos para gerar uma legenda no LaTeX, e que provavelmente é o código que você costuma usar também:
 

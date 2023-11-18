@@ -12,9 +12,9 @@ tags: LaTeX
 Já se perguntou como alterar o tamanho do papel no meio do documento LaTeX?
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=cRNMtmYU0FM" target="_blank">
-  ![Thumbnail of youtube video Alterar do tamanho do papel no meio do documento LaTeX]({{ "/assets/LaTeX/thumb-youtube-alterar-tamanho-do-papel-no-meio-do-documento-LaTeX.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cRNMtmYU0FM?si=h6dAm9Lnxue8hsiD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 Se você quer alterar o tamanho de um documento pra imprimir uma só página diferente do restante do documento.
 

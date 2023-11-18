@@ -12,9 +12,9 @@ tags: LaTeX
 Conheça as classes de documentos disponíveis no LaTeX ou **documentclass**.
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=m3xnxEhVL-c" target="_blank">
-  ![Thumbnail of youtube video Classes de documentos no LaTeX]({{ "/assets/LaTeX/thumb-youtube-classes-de-documentos-no-LaTeX.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m3xnxEhVL-c?si=1weh-64DBaxtojCP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 `\documentclass` é o primeiro comando a ser informado quando criamos um novo documento. É o comando que especifica qual é o tipo de documento que será escrito.
 

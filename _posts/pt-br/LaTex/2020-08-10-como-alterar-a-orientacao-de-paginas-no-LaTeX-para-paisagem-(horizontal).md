@@ -14,9 +14,9 @@ Se você quer saber como alterar a orientação das páginas para o modo de pais
 Neste artigo, vamos te mostrar duas maneiras diferentes - utilizando pacotes diferentes - para que você faça essa alteração com sucesso.
 
 <!-- Youtube Video -->
-<a href="https://youtu.be/PY18DEa77Fo" target="_blank">
-  ![Thumbnail of youtube video Como alterar a orientação de algumas páginas no LaTeX para paisagem (horizontal)]({{ "/assets/LaTeX/thumb-youtube-como-alterar-a-orientacao-de-algumas-paginas-no-LaTeX-para-paisagem-(horizontal).jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PY18DEa77Fo?si=TMv_c7L45WUajpHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Utilizando o pacote **lscape**
 

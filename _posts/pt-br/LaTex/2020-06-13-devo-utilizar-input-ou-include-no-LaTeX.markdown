@@ -14,9 +14,9 @@ Para organizar documentos, é comum utilizar \\input ou \\include no LaTeX.
 Apesar de terem a mesma função, que é importar um arquivo e o incluir no documento .tex de destino, eles tem algumas diferenças.
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=tpYTt6QghaM" target="_blank">
-  ![Thumbnail of youtube input ou include? Importação de documento externo no LaTeX]({{ "/assets/LaTeX/thumb-youtube-input-ou-include-Importacao-de-documento-externo-no-LaTeX.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tpYTt6QghaM?si=ZVxXdVPxqfALSE1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Comando \\input
 

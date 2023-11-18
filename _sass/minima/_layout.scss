@@ -225,6 +225,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    gap: calc(#{$spacing-unit} / 2);
     flex-wrap: wrap;
     margin: $spacing-unit auto;
     padding-bottom: $spacing-unit;

@@ -12,9 +12,9 @@ tags: LaTeX
 Os comentários servem para que você entenda o que fez no código mesmo que passe muito tempo longe dele e são uma prática excelente! Mas então como fazer comentários no LaTeX?
 
 <!-- Youtube Video -->
-<a href="https://www.youtube.com/watch?v=x43MWDXQ-zQ" target="_blank">
-  ![Thumbnail of youtube video Como fazer comentários no LaTeX]({{ "/assets/LaTeX/thumb-youtube-comentarios-no-LaTeX.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x43MWDXQ-zQ?si=DT2cRPU3lGVWse5N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Como fazer um comentário no LaTeX
 

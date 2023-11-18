@@ -14,9 +14,9 @@ No LaTeX, a ordem dos fatores altera sim o produto. Para que você **não se dep
 A resposta para isso é bem simples. Veja como o LaTeX interpreta cada um desses comandos:
 
 <!-- Youtube Video -->
-<a href="https://youtu.be/ZPfOo5l0v2k" target="_blank">
-  ![Thumbnail of youtube video Por que o label deve vir depois de caption? - LaTeX]({{ "/assets/LaTeX/thumb-youtube-por-que-o-label-deve-vir-depois-de-caption-LaTeX.jpg" | relative_url }} "Assistir no YouTube")
-</a>
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPfOo5l0v2k?si=mF3TgksVBGhaat4J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 O comando `\caption` é responsável por **gerar a numeração**. Imagine isso como a geração de um \"endereço\". Por exemplo, uma figura.
 
