@@ -1,4 +1,6 @@
-{%- assign shareurl = '' | append: site.url | append: site.baseurl | append: page.url -%}
+{%- assign baseurl = site.baseurl -%}
+{%- assign baseurl = baseurl | remove: "/" -%}
+{%- assign shareurl = '' | append: site.url | append: baseurl | append: page.url -%}
 
 <div class="share-buttons">
   {%- if page.lang == "pt-BR" -%}
