@@ -14,7 +14,8 @@ comments: true
 
         <ul class="post-tags">
           {%- for tag in page.tags -%}
-          <li><a href='{{ "/tag/" | append: tag |  replace: " ", "-"  | relative_url }}'>{{ tag | escape | capitalize }}</a></li>
+          {%- assign tag_url = tag | slugify: 'latin' -%}
+          <li><a href='{{ "/tag/" | append: tag_url  | relative_url }}'>{{ tag | escape | capitalize }}</a></li>
           {%- endfor -%}
         </ul>
 

@@ -1,3 +1,4 @@
 {%- for category in site.categories -%}
-<a class="page-link hover-my-css" href='{{ "/category/" | append: category[0] |  replace: " ", "-"  | relative_url }}'>{{ category[0] | escape | capitalize }}</a>
+{%- assign category_url = category[0] | slugify: 'latin' -%}
+<a class="page-link hover-my-css" href='{{ "/category/" | append: category_url  | relative_url }}'>{{ category[0] | escape | capitalize }}</a>
 {%- endfor -%}
