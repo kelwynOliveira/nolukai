@@ -114,7 +114,7 @@ Mas já esteja preparado para ser mal atendido, algumas pessoas são sortudas, o
 
 Este formulário você conseguirá obter aqui: <a href="https://riodejaneiro.consulfrance.org/IMG/pdf/formulaire_ls_2017.pdf?3847/05b80366c5cea5925539aab111c790b339c3445a\">DEMANDE DE VISA POUR UN LONG SÉJOUR</a>.
 
-Ele deve ser preenchido com letras de formas, datado e assinado.
+Ele deve ser preenchido com letras de forma, datado e assinado.
 A tradução dos itens do formulário vou deixar aqui para você baixar:
 
 <a href="{{ 'assets/intercambio/uploads/Ajuda_para_o_preenchimento_do_formulario_de_visto_de_Longa_Duracao-2.pdf' | relative_url }}" target="_blank">Ajuda_para_o_preenchimento_do_formulario_de_visto_de_Longa_Duracao</a>

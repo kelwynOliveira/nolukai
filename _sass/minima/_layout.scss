@@ -241,11 +241,33 @@
   }
   .post-infos{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: calc(#{$spacing-unit} / 2);
-    .perfil-photo{
-      width: 60px;
-      border-radius: 50%
+    flex-wrap: wrap;
+    gap: $spacing-unit;
+    .post-infos-author{
+      display: flex;
+      align-items: center;
+      gap: calc(#{$spacing-unit} / 2);
+      .perfil-photo{
+        width: 60px;
+        border-radius: 50%
+      }
+    }
+    .post-share{
+      color: $grey-color;
+      ul{
+        display: flex;
+        gap: calc(#{$spacing-unit} / 2);;
+        list-style-type: none;
+        margin: 0;
+        a{
+          color: inherit;
+        }
+        a:hover{
+          color: $brand-color;
+        }
+      }
     }
   }
 }

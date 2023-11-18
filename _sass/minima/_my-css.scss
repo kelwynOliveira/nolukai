@@ -151,10 +151,10 @@
       position: absolute;
       left: -$spacing-unit;
       background-color: $grey-color;
-      -webkit-mask-image: url('./search-icon.svg');
+      -webkit-mask-image: url("./svg/search-icon.svg");
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-position: center;
-      mask-image: url('./search-icon.svg');
+      mask-image: url("./svg/search-icon.svg");
       mask-repeat: no-repeat;
       mask-position: center;
       // background: url('./search-icon.svg') no-repeat center;

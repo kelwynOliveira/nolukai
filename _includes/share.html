@@ -1,0 +1,24 @@
+<div class="post-share">
+  <ul class="list-inline mb-0">
+      <li class="">
+          <a href="{{ 'https://www.facebook.com/sharer.php?u=' | append: site.url | append: page.url }}" class="text-muted">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/svg/minima-social-icons.svg#facebook' | relative_url }}"></use></svg>
+          </a>
+      </li>
+      <li class="">
+          <a href="{{ 'https://twitter.com/intent/tweet?url=' | append: site.url | append: page.url }}" class="text-muted">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/svg/minima-social-icons.svg#twitter' | relative_url }}"></use></svg>
+          </a>
+      </li>
+      <li class="">
+          <a href="{{ 'https://www.linkedin.com/shareArticle?mini=true&url=' | append: site.url | append: page.url }}" class="">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/svg/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>
+          </a>
+      </li>
+      <li class="">
+          <a href="{{ 'https://api.whatsapp.com/send?text=' | append: site.url | append: page.url }}" data-action="share/whatsapp/share" class="text-muted">
+            <svg class="svg-icon"><use xlink:href="{{ '/assets/svg/minima-social-icons.svg#whatsapp' | relative_url }}"></use></svg>
+          </a>
+      </li>
+  </ul>
+</div>
