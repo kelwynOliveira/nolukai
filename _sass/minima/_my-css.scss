@@ -26,23 +26,6 @@
       font-size: 1.25rem;
     }
   }
-
-  .page-link {
-    margin: 8px 0;
-    padding: 3px 8px;
-    border-radius: 10px;
-    color: $background-color;
-    text-transform: uppercase;
-    background-color: $brand-color;
-    @include media-query($on-palm) {
-      margin-left: 0;
-      font-size: 0.625rem;
-    }
-  }
-  .page-link:hover {
-    text-decoration: none;
-    background-color: $title-link-color;
-  }
 }
 
 .slide-posts-my-css {
