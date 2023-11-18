@@ -26,6 +26,15 @@
       font-size: 1.25rem;
     }
   }
+  .page-link{
+    color: $background-color;
+    background-color: $brand-color;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .page-link:hover{
+    background-color: $title-link-color;
+  }
 }
 
 .slide-posts-my-css {
