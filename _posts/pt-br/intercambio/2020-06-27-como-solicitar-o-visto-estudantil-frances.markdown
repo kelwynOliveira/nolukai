@@ -53,9 +53,7 @@ Vale lembrar que para solicitar o visto estudantil francês para estudantes bols
 
 Se você preferir pode baixar a lista das documentações necessárias para a solicitação do visto, essa lista encontrei no site da embaixada da França no Brasil:
 
-<a href="https://estudantesemapuros.com/wp-content/uploads/2020/11/lista_de_documentos_para_apresentar_a_embaixada-1.pdf">lista_de_documentos_para_apresentar_a_embaixada</a>
-
-<a href="https://estudantesemapuros.com/wp-content/uploads/2020/11/lista_de_documentos_para_apresentar_a_embaixada-1.pdf">Baixar</a>
+<a href="{{ 'assets/intercambio/uploads/lista_de_documentos_para_apresentar_a_embaixada-1.pdf' | relative_url }}" target="_blank">lista_de_documentos_para_apresentar_a_embaixada</a>
 
 Tenha com você a cópia de todos os documentos.
 
@@ -98,9 +96,7 @@ As embaixadas solicitam **duas fotos** recentes nesse formato para que você pos
 Talvez você tenha que ir à uma gráfica para poder conseguir esse formato.
 Aqui está um documento explicando como as fotos devem ser:
 
-<a href="https://estudantesemapuros.com/wp-content/uploads/2020/11/depliant_norme_photo-1.pdf">depliant_norme_photo</a>
-
-<a href="https://estudantesemapuros.com/wp-content/uploads/2020/11/depliant_norme_photo-1.pdf">Baixar</a>
+<a href="{{ 'assets/intercambio/uploads/depliant_norme_photo-1.pdf' | relative_url }}" target="_blank">depliant_norme_photo</a>
 
 ### 9 - Alojamento na França
 
@@ -121,9 +117,7 @@ Este formulário você conseguirá obter aqui: <a href="https://riodejaneiro.con
 Ele deve ser preenchido com letras de formas, datado e assinado.
 A tradução dos itens do formulário vou deixar aqui para você baixar:
 
-<a href="https://estudantesemapuros.com/wp-content/uploads/2020/11/Ajuda_para_o_preenchimento_do_formulario_de_visto_de_Longa_Duracao-2.pdf">Ajuda_para_o_preenchimento_do_formulario_de_visto_de_Longa_Duracao</a>
-
-<a href="https://estudantesemapuros.com/wp-content/uploads/2020/11/Ajuda_para_o_preenchimento_do_formulario_de_visto_de_Longa_Duracao-2.pdf">Baixar</a>
+<a href="{{ 'assets/intercambio/uploads/Ajuda_para_o_preenchimento_do_formulario_de_visto_de_Longa_Duracao-2.pdf' | relative_url }}" target="_blank">Ajuda_para_o_preenchimento_do_formulario_de_visto_de_Longa_Duracao</a>
 
 ## Entrevista
 
