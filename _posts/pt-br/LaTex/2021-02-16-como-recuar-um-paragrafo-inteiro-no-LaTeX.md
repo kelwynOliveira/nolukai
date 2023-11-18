@@ -13,7 +13,7 @@ Aprenda três maneiras de recuar um parágrafo inteiro no LaTeX.
 
 <!-- Youtube Video -->
 <div class="yt-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SS5bQSSqtMI?si=FutyHPoulOpxhZgh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/SS5bQSSqtMI?si=FutyHPoulOpxhZgh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## 1. Recuo de parágrafo com ambiente minipage

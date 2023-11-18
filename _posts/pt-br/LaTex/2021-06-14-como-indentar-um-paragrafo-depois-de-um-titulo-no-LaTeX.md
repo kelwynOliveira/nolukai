@@ -13,7 +13,7 @@ De acordo com o padrão do LaTeX (EUA), o primeiro parágrafo depois de um títu
 
 <!-- Youtube Video -->
 <div class="yt-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uQrUz_3zyWc?si=F5V2MMOgaXSBgz7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/uQrUz_3zyWc?si=F5V2MMOgaXSBgz7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Você vai precisar verificar se está usando alguns pacotes no seu documento:

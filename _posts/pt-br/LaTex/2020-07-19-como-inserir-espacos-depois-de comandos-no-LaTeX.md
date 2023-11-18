@@ -15,7 +15,7 @@ O que acontece é que o LaTeX ignora os espaços digitados e insere o próximo c
 
 <!-- Youtube Video -->
 <div class="yt-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F2TbHIgUyEo?si=95Uq3KFnSefo0lEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/F2TbHIgUyEo?si=95Uq3KFnSefo0lEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Para criar esse espaço, você precisa informar ao compilador do LaTeX para parar a varredura do comando.
