@@ -179,6 +179,7 @@
   .language-list {
     list-style-type: none;
     display: flex;
+    justify-content: center;
     gap: calc(#{$spacing-unit} / 2);
     margin: 0;
     li {
