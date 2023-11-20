@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: uso-de-variaveis-com-a-calculadora
 title: "Uso de variáveis com a calculadora"
 date: 2020-07-07 18:00:00 -0400
 description: "Neste artigo você descobre como usar variáveis em seus cálculos usando a calculadora científica."

@@ -1,19 +1,31 @@
-{%- for category in site.categories -%}
+{% for category in site.categories %}
+{% assign name = category[0] %}
+{% assign posts = category[1] %}
+
+{% assign selectedPosts = posts | where:"lang", page.lang %}
+
+{% if selectedPosts.size > 0 %}
 <div class="post-heading-my-css">
-  <h2 class="post-list-heading">{{ category[0] | default: "Posts" }}</h2>
-  <!-- <a class="page-link" href="{{ my_page.url | relative_url }}">ver mais</a> -->
-  {%- assign category_url = category[0] | slugify: 'latin' -%}
-  <a class="page-link" href="{{ "/category/" | append: category_url | relative_url }}">ver mais</a>
+  <h2 class="post-list-heading">{{ name | default: "Posts" }}</h2>
+  {%- if page.lang == 'pt-BR' -%}
+  {%- assign category_url = name | slugify: 'latin' | append: '/pt/' -%}
+  {%- assign see-more = 'ver mais' -%}
+  {%- else -%}
+  {%- assign category_url = name | slugify: 'latin' -%}
+  {%- assign see-more = 'see more' -%}
+  {%- endif -%}
+  <a class="page-link hover-my-css" href='{{ "/category/" | append: category_url  | relative_url }}'>{{ see-more }}</a>
 </div>
 
 <ul class="post-list slide-posts-my-css">
-  {%- for post in category[1] limit:3 -%}
+  {% for post in selectedPosts limit:3 %}
   <li>
     <a class="post-link" href="{{ post.url | relative_url }}">
       <img src="{{ post.image | relative_url }}" alt="{{ post.image-alt }}">
       <h3 class="post-title-my-css">{{ post.title | escape }}</h3>
     </a>
   </li>
-  {%- endfor -%}
+  {% endfor %}
 </ul>
-{%- endfor -%}
+{% endif %}
+{% endfor %}

@@ -22,7 +22,7 @@ $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark: darken($grey-color, 25%) !default;
 
-$shadow: 0 1rem 3rem rgba(31,45,61,.125);
+$shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
 
 $table-text-align: left !default;
 
@@ -51,4 +51,5 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
-@import "minima/base", "minima/layout", "minima/syntax-highlighting", "minima/my-css";
+@import "minima/base", "minima/layout", "minima/syntax-highlighting",
+  "minima/my-css";

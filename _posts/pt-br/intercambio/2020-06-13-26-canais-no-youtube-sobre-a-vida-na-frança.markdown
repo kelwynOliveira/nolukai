@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: canais-no-youtube-sobre-a-vida-na-frança
 title: "26 Canais no YouTube sobre a vida na França"
 date: 2020-06-13 18:00:00 -0400
 description: "Lista de 26 canais no YouTube sobre a vida na França. Se você quer saber como vivem os brasileiros e o que acham da França veja a lista."

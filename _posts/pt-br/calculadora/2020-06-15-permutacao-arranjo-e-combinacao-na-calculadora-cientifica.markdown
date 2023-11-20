@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: permutacao-arranjo-e-combinacao-na-calculadora-cientifica/
 title: "Permutação, arranjo e combinação na calculadora científica"
 date: 2020-06-15 18:00:00 -0400
 description: "Neste artigo você descobre como realizar calculos de permutação, arranjo e combinação na sua calculadora científica"

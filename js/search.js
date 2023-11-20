@@ -1,5 +1,6 @@
 (function() {
   function displaySearchResults(results, store) {
+    var page_lang = document.getElementsByTagName('html')[0].getAttribute('lang');
     var searchResults = document.getElementById('search-results');
 
     if (results.length) { // Are there any results?
@@ -7,13 +8,19 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+        if (item.lang == page_lang) {
+          appendString += '<li><a href="' + item.url + '"><h3>' + item.title + item.lang + '</h3></a>';
+          appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+        } else {
+            var not_found_text = page_lang == 'pt-BR' ? 'Resultado não encontrado' : 'No results found';
+            appendString = '<h3>' + not_found_text + '</h3>';
+        }
       }
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      var not_found_text = page_lang == 'pt-BR' ? 'Resultado não encontrado' : 'No results found';
+      searchResults.innerHTML = '<h3>' + not_found_text + '</h3>';
     }
   }
 

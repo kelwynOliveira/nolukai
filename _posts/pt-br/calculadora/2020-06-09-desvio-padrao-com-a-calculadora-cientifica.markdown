@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: desvio-padrao-com-a-calculadora-cientifica/
 title: "Desvio padrão com a calculadora científica"
 date: 2020-06-09 18:00:00 -0400
 description: "Neste artigo você descobre como fazerr cálculos de desvio padrão utilizando a sua calculadora científica"

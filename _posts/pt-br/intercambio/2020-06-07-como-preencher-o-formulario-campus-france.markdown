@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: como-preencher-o-formulario-campus-france
 title: "Como preencher o formulário Campus France"
 date: 2020-06-07 11:10:33 -0400
 description: "Neste artigo descubra o passo a passo de como preencher o seu formulário Campus France para obter o seu visto estudantil francês."

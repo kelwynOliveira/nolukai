@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: calculo-de-sistema-de-segundo-grau-com-a-calculadora-funcoes-escondidas-na-CASIO-FX-82MS
 title: "Cálculo de sistema de segundo grau com a calculadora - Funções escondidas na CASIO FX-82MS"
 date: 2020-06-25 18:00:00 -0400
 description: "Neste artigo você descobre como fazer cálculos de sistemas e conversões na sua calculadora científica"

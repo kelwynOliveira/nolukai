@@ -1,13 +1,14 @@
 ---
 layout: post
 lang: pt-BR
+permalink: mensagens-de-erro-e-correcoes-na-calculadora-cientifica/
 title: "Mensagens de erro e correções na calculadora científica"
 date: 2020-06-03 18:00:00 -0400
 description: "Neste artigo você descobre como corrigir as mensagens de erro que aparecem na sua calculadora e o que cada uma significa"
 image: "/assets/calculadora/thumb/thumb-Mensagens-de-erro-e-correcao.png"
 image-alt: "Desenho de uma calculadora com um balão escrito #ERRO"
 category: calculadora científica
-tags: 
+tags:
   - calculadora
   - escola
 channel-id: UCYUU9jqWR41rkRXBQHBdbtw

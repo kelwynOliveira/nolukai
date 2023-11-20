@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: o-que-e-o-BRAFITEC
 title: "O que é o BRAFITEC?"
 date: 2020-06-05 18:00:00 -0400
 description: "Neste artigo você descobre a duração do BRAFITEC, quanto tempo você pode ficar estudando na Fança com tudo pago pelo governo brasileiro."

@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: graus-minutos-e-segundos-na-calculadora
 title: "Graus, minutos e segundos na calculadora"
 date: 2020-07-11 18:00:00 -0400
 description: "Neste artigo você descobre como realizar cálculos sexagesimais (graus, minutos e segundos) usando a calculadora científica."

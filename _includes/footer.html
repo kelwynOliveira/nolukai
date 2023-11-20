@@ -4,9 +4,13 @@
   <div class="container">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <a class="" rel="author" href="{{ '/' | relative_url }}">
-          <h2 class="footer-heading">{{ site.title | escape }}</h2>
-        </a>
+        {%- if page.lang == 'en' -%}
+        <a class="site-title" rel="author" href="{{ '/home/' | relative_url }}">
+          {%- else -%}
+          <a class="site-title" rel="author" href="{{ '/home/pt/' | relative_url }}">
+            {%- endif -%}
+            <h2 class="footer-heading">{{ site.title | escape }}</h2>
+          </a>
       </div>
 
       <div class="footer-col footer-col-3">

@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: como-alterar-o-ponto-da-calculadora-em-virgula
 title: "Como alterar o ponto da calculadora em vírgula"
 date: 2020-07-01 18:00:00 -0400
 description: "Neste artigo você descobre como alterar o separador decimal da sua calculadora entre ponto e vírgula"

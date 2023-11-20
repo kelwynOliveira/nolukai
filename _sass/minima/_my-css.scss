@@ -26,13 +26,13 @@
       font-size: 1.25rem;
     }
   }
-  .page-link{
+  .page-link {
     color: $background-color;
     background-color: $brand-color;
     padding: 5px 10px;
     border-radius: 10px;
   }
-  .page-link:hover{
+  .page-link:hover {
     background-color: $title-link-color;
   }
 }
@@ -43,6 +43,7 @@
   overflow: hidden;
   li {
     width: 100%;
+    max-width: 236px;
   }
   li,
   img {
@@ -86,28 +87,27 @@
   }
 }
 
-.site-nav{
-  .hover-my-css:hover{
+.site-nav {
+  .hover-my-css:hover {
     text-decoration: none;
     color: $brand-color;
   }
-
-  .search-my-css{
+  .search-my-css {
     border-radius: 20px;
     border: 1px solid $brand-color;
     margin-top: 5px;
     margin-right: 10px;
     padding: 5px 10px;
-    .btn-inner--icon{
+    .btn-inner--icon {
       padding-left: 5px;
     }
   }
 }
 
 // Search
-.search-form{
+.search-form {
   margin-top: $spacing-unit;
-  #search-box{
+  #search-box {
     width: -webkit-calc(100% - 80px);
     width: calc(100% - 80px);
     height: 40px;
@@ -116,7 +116,8 @@
     border: 1px solid $brand-color;
     margin-bottom: $spacing-unit;
   }
-  .search-button{
+  .search-button {
+    cursor: pointer;
     margin-left: -5px;
     padding: 0 10px;
     height: 40px;
@@ -129,14 +130,14 @@
   }
 }
 
-#search-results{
-  li{
+#search-results {
+  li {
     margin-bottom: $spacing-unit;
     border-bottom: 1px solid $grey-color-light;
     list-style-type: none;
     position: relative;
-    &::before{
-      content: '';
+    &::before {
+      content: "";
       width: $spacing-unit;
       height: $spacing-unit;
       display: inline;
@@ -151,24 +152,40 @@
       mask-position: center;
       // background: url('./search-icon.svg') no-repeat center;
     }
-    a h3{
+    a h3 {
       display: inline-block;
     }
   }
 }
 
 // posts youtube video
-.yt-video{
+.yt-video {
   text-align: center;
   position: relative;
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
-  iframe{
+  iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+// Menu language
+.language-menu {
+  .language-list {
+    list-style-type: none;
+    display: flex;
+    gap: calc(#{$spacing-unit} / 2);
+    margin: 0;
+    li {
+      img {
+        width: $spacing-unit;
+        border: none;
+      }
+    }
   }
 }

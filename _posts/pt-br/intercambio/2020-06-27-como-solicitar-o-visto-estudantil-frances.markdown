@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: como-solicitar-o-visto-estudantil-frances
 title: "Como solicitar o visto estudantil francês"
 date: 2020-06-27 18:00:00 -0400
 description: "Descubra como solicitar o seu visto estudantil francês. Desde o agendamento, documentação, embaixada até a retirada do passaporte."

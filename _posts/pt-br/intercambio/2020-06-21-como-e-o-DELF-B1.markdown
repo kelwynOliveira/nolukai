@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: como-e-o-DELF-B1
 title: "Como é o DELF B1"
 date: 2020-06-21 18:00:00 -0400
 description: "Descubra neste artigo como é o DELF B1. Aqui eu conto todo o meu processo desde o pagamento da prova até o recebimento do diploma"

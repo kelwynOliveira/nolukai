@@ -4,8 +4,8 @@ comments: true
 ---
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  
-  <header class="post-header" style="background-image: url({{ page.image | relative_url }});">
+
+  <header class="post-header" style="background-image: url('{{ page.image | relative_url }}');">
     <!-- {%- include breadcrumbs.html -%} -->
 
     <div class="container">
@@ -14,7 +14,11 @@ comments: true
 
         <ul class="post-tags">
           {%- for tag in page.tags -%}
+          {%- if page.lang == 'pt-BR' -%}
+          {%- assign tag_url = tag | slugify: 'latin' | append: '/pt/' -%}
+          {%- else -%}
           {%- assign tag_url = tag | slugify: 'latin' -%}
+          {%- endif -%}
           <li><a href='{{ "/tag/" | append: tag_url  | relative_url }}'>{{ tag | escape | capitalize }}</a></li>
           {%- endfor -%}
         </ul>
@@ -27,11 +31,11 @@ comments: true
             <div class="post-meta">
               {%- if site.author or page.author -%}
               <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                  <span class="p-author h-card" itemprop="name">
-                  {%- if page.author  -%}
-                    <a class="p-author" href="{{ page.author.url }}" target="_blank">{{ page.author.name }}</a>
+                <span class="p-author h-card" itemprop="name">
+                  {%- if page.author -%}
+                  <a class="p-author" href="{{ page.author.url }}" target="_blank">{{ page.author.name }}</a>
                   {%- else -%}
-                    <a class="p-author" href="{{ site.author.url }}" target="_blank">{{ site.author.name }}</a>
+                  <a class="p-author" href="{{ site.author.url }}" target="_blank">{{ site.author.name }}</a>
                   {%- endif -%}
                 </span>
               </span>

@@ -211,7 +211,7 @@ pre {
 /**
  * Container
  */
- .container{
+.container {
   width: 100%;
   max-width: 1190px;
   margin: 0 auto;
@@ -242,7 +242,7 @@ pre {
   // padding-right: 5px;
   vertical-align: text-top;
 }
-.whatsapp{
+.whatsapp {
   .svg-icon {
     width: 20px;
     height: 20px;
@@ -254,14 +254,13 @@ pre {
     padding-top: 5px;
   }
 }
-.share-buttons{
+.share-buttons {
   .social-media-list {
     li + li {
       padding-top: 0;
     }
   }
 }
-
 
 /**
  * Tables
@@ -292,4 +291,3 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
-

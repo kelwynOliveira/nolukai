@@ -1,0 +1,11 @@
+<div class="language-menu">
+  <ul class="language-list">
+    {% if page.lang == "en" %}
+    <li><a href="{{ page.translated-link | relative_url }}"><img src="{{ '/assets/brazil.png' | relative_url }}" alt="Brazil flag"></a></li>
+    <li><img src="{{ '/assets/uk.png' | relative_url }}" alt="United Kingdon flag"></li>
+    {% else %}
+    <li><img src="{{ '/assets/brazil.png' | relative_url }}" alt="Brazil flag"></li>
+    <li><a href="{{ page.translated-link | relative_url }}"><img src="{{ '/assets/uk.png' | relative_url }}" alt="United Kingdon flag"></a></li>
+    {% endif %}
+  </ul>
+</div>

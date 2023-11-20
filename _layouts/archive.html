@@ -7,44 +7,44 @@ layout: default
   </div>
 
   {%- if page.is-category -%}
-    {%- for category in site.categories -%}
-      {%- if category[0] == page.posts-category -%}
-      <ul class="post-list post-list-my-css">
-        {% for post in category[1] %}
-        <li>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            <img src="{{ post.image | relative_url }}" alt="{{ post.image-alt }}">
-            <div>
-              <h3 class="post-title-my-css">{{ post.title | escape }}</h3>
-              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-            </div>
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-      
-      {%- endif -%}
-    {%- endfor -%}
+  {%- for category in site.categories -%}
+  {%- if category[0] == page.posts-category -%}
+  <ul class="post-list post-list-my-css">
+    {% for post in category[1] %}
+    <li>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.image-alt }}">
+        <div>
+          <h3 class="post-title-my-css">{{ post.title | escape }}</h3>
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 
-    {%- elsif page.is-tag -%}
-      {%- for tag in site.tags -%}
-        {%- if tag[0] == page.posts-tag -%}
-        <ul class="post-list post-list-my-css">
-          {% for post in tag[1] %}
-          <li>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              <img src="{{ post.image | relative_url }}" alt="{{ post.image-alt }}">
-              <div>
-                <h3 class="post-title-my-css">{{ post.title | escape }}</h3>
-                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-              </div>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-        
-        {%- endif -%}
-      {%- endfor -%}
+  {%- endif -%}
+  {%- endfor -%}
+
+  {%- elsif page.is-tag -%}
+  {%- for tag in site.tags -%}
+  {%- if tag[0] == page.posts-tag -%}
+  <ul class="post-list post-list-my-css">
+    {% for post in tag[1] %}
+    <li>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.image-alt }}">
+        <div>
+          <h3 class="post-title-my-css">{{ post.title | escape }}</h3>
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  {%- endif -%}
+  {%- endfor -%}
   {%- endif -%}
 
 </div>

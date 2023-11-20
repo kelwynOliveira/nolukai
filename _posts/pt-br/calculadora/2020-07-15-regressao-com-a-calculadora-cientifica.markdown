@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: regressao-com-a-calculadora-cientifica
 title: "Regressão com a calculadora científica"
 date: 2020-07-15 18:00:00 -0400
 description: "Neste artigo você descobre como realizar calculos de regressão com a sua calculadora científica"

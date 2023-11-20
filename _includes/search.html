@@ -1,7 +1,14 @@
-<form action="{{ /search.html | relative_url }}" method="get" class="search-form">
+{%- if page.lang == 'pt-BR' -%}
+{%- assign search-name = 'Pesquisar' -%}
+{%- else -%}
+{%- assign search-name = 'Search' -%}
+{%- endif -%}
+
+
+<form action="{{ '/search/' | append: page.lang | relative_url }}" method="get" class="search-form">
   <!-- <label for="search-box">Search</label> -->
   <input type="text" id="search-box" name="query">
-  <input type="submit" value="search" class="search-button">
+  <input type="submit" value="{{ search-name }}" class="search-button">
 </form>
 
 <ul id="search-results"></ul>
@@ -14,7 +21,8 @@
         "author": "{{ post.author | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-        "url": "{{ post.url | xml_escape }}"
+        "url": "{{ post.url | xml_escape }}",
+        "lang": "{{ post.lang }}"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}

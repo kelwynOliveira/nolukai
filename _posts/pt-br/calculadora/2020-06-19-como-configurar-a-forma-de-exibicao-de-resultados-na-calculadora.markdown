@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: pt-BR
+permalink: como-configurar-a-forma-de-exibicao-de-resultados-na-calculadora
 title: "Como configurar a forma de exibição de resultados na calculadora"
 date: 2020-06-19 18:00:00 -0400
 description: "Neste artigo você descobre como configurar a forma de exibição de resultados na sua calculadora, como o científico, número específico de decimais ou exibição normal"
