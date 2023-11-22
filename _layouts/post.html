@@ -59,9 +59,11 @@ comments: true
     {{ content }}
   </section>
 
-  {%- if site.disqus.shortname -%}
-  {%- include disqus_comments.html -%}
-  {%- endif -%}
+  <section class="comments">
+    {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+    {%- endif -%}
+  </section>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Nolukai
-email: blog@nolukai.com
+#email: blog@nolukai.com
 description: >- # this means to ignore newlines until "baseurl:"
   Explore the world of technology at Nolukai. Programming, software development, and school learning made accessible and practical. Discover the 'do-it-yourself' approach to technology with our tutorials and tips. Join the developer community and enhance your skills. Join us for an innovative and inspiring journey!
 baseurl: "/nolukai" # the subpath of your site, e.g. /blog
@@ -38,8 +38,6 @@ linkedin_username: "kelwynoliveira"
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-archives
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
