@@ -26,27 +26,33 @@ comments: true
         <div class="post-infos">
           <div class="post-infos-author">
             <!-- Author image -->
-            <img class="perfil-photo" src="{{ 'assets/kelwyn-oliveira-perfil.png' | relative_url }}" alt="">
-            <!-- Author and Date -->
-            <div class="post-meta">
-              {%- if site.author or page.author -%}
-              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span class="p-author h-card" itemprop="name">
-                  {%- if page.author -%}
-                  <a class="p-author" href="{{ page.author.url }}" target="_blank">{{ page.author.name }}</a>
-                  {%- else -%}
-                  <a class="p-author" href="{{ site.author.url }}" target="_blank">{{ site.author.name }}</a>
-                  {%- endif -%}
+            {%- if page.author -%}
+            <a class="p-author" href="{{ page.author.url }}" target="_blank">
+              {%- else -%}
+              <a class="p-author" href="{{ site.author.url }}" target="_blank">
+                {%- endif -%}
+                <img class="perfil-photo" src="{{ 'assets/kelwyn-oliveira-perfil.png' | relative_url }}" alt="">
+              </a>
+              <!-- Author and Date -->
+              <div class="post-meta">
+                {%- if site.author or page.author -%}
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <span class="p-author h-card" itemprop="name">
+                    {%- if page.author -%}
+                    <a class="p-author" href="{{ page.author.url }}" target="_blank">{{ page.author.name }}</a>
+                    {%- else -%}
+                    <a class="p-author" href="{{ site.author.url }}" target="_blank">{{ site.author.name }}</a>
+                    {%- endif -%}
+                  </span>
                 </span>
-              </span>
-              <span>
-                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                  {{ page.date | date: date_format }}
-                </time>
-              </span>
-              {%- endif -%}
-            </div>
+                <span>
+                  <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    {{ page.date | date: date_format }}
+                  </time>
+                </span>
+                {%- endif -%}
+              </div>
           </div>
           <!-- Share -->
           {%- include share.html -%}

@@ -22,12 +22,13 @@ title: Nolukai
 #email: blog@nolukai.com
 description: >- # this means to ignore newlines until "baseurl:"
   Explore the world of technology at Nolukai. Programming, software development, and school learning made accessible and practical. Discover the 'do-it-yourself' approach to technology with our tutorials and tips. Join the developer community and enhance your skills. Join us for an innovative and inspiring journey!
-baseurl: "/nolukai" # the subpath of your site, e.g. /blog
-url: "https://kelwynoliveira.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kelwynoliveira.github.io/nolukai" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: "Kelwyn Oliveira"
   url: https://kelwyn.me/
   image: "/assets/kelwyn-oliveira-perfil.png"
+# show_excerpts: true
 logo: "/assets/favicon/android-chrome-192x192"
 github_username: kelwynOliveira
 instagram_username: nolukai

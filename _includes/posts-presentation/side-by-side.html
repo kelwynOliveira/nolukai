@@ -1,0 +1,39 @@
+<!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+
+<li class="post-item">
+  <a class="post-link post-thumb" href="{{ post.url | relative_url }}">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.image-alt }}">
+  </a>
+
+  <div class="post-info">
+    <p class="post-meta post-date"><small>{{ post.date | date: date_format }}</small></p>
+
+    <a class="post-link post-title-link" href="{{ post.url | relative_url }}">
+      <h3 class="post-title">{{ post.title | escape }}</h3>
+    </a>
+
+    {%- if site.show_excerpts -%}
+    <div class="excerpt">
+      {{ post.excerpt }}
+    </div>
+    {%- endif -%}
+
+    <div class="author">
+      <div class="author-id">
+        <!-- Author image -->
+        <img class="perfil-photo" src="{{ 'assets/kelwyn-oliveira-perfil.png' | relative_url }}" alt="">
+        <span class="institute">{{ post.author | default: site.author.name }}</span>
+      </div>
+      <div class="post-type {{post.category | slugify: 'latin' }}">
+        {%- if page.lang == 'pt-BR' -%}
+        {%- assign category_url = post.category | slugify: 'latin' | append: '/pt/' -%}
+        {%- else -%}
+        {%- assign category_url = name | slugify: 'latin' -%}
+        {%- endif -%}
+        <a class="page-link" href='{{ "/category/" | append: category_url  | relative_url }}'>
+          {{ post.category }}
+        </a>
+      </div>
+    </div>
+  </div>
+</li>

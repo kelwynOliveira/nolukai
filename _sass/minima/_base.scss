@@ -34,8 +34,8 @@ figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height}
     $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  @include theme("color", $primary-text-color);
+  @include theme("background-color", $general-background);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -81,7 +81,6 @@ main {
 img {
   width: 100%;
   vertical-align: middle;
-  border: 1px solid black;
 }
 
 /**
@@ -126,11 +125,11 @@ h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  @include theme("color", $accent-color);
   text-decoration: none;
 
   &:hover {
-    color: $text-color;
+    @include theme("color", $accent-color-dark);
     text-decoration: underline;
   }
 
@@ -147,8 +146,10 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  @include theme("color", $secondary-text-color);
+  border-left-width: 4px;
+  border-left-style: solid;
+  @include theme("border-left-color", $primary-color);
   padding-left: calc(#{$spacing-unit} / 2);
   padding-left: -webkit-calc(#{$spacing-unit} / 2);
   @include relative-font-size(1.125);
@@ -166,9 +167,11 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  border-width: 1px;
+  border-style: solid;
+  @include theme("border-color", $primary-color);
   border-radius: 3px;
-  background-color: #eef;
+  @include theme("background-color", $general-background-light);
 }
 
 code {
@@ -238,8 +241,7 @@ pre {
   width: 16px;
   height: 16px;
   display: inline-block;
-  fill: #{$grey-color};
-  // padding-right: 5px;
+  @include theme("fill", $primary-text-color);
   vertical-align: text-top;
 }
 .whatsapp {
@@ -269,12 +271,16 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  @include theme("color", $general-background);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border-width: 1px;
+  border-style: solid;
+  @include theme("border-color", $divider-color);
+
   tr {
+    @include theme("background-color", $primary-text-color);
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      @include theme("background-color", $secondary-text-color);
     }
   }
   th,
@@ -283,11 +289,14 @@ table {
     padding: -webkit-calc(#{$spacing-unit} / 3) -webkit-calc(#{$spacing-unit} / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    @include theme("background-color", $secondary-text-color);
+    border-width: 1px;
+    border-style: solid;
+    @include theme("border-color", $divider-color);
   }
   td {
-    border: 1px solid $grey-color-light;
+    border-width: 1px;
+    border-style: solid;
+    @include theme("border-color", $divider-color);
   }
 }

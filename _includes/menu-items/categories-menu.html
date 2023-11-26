@@ -1,0 +1,22 @@
+<div class="categories-menu">
+  <nav class="container" aria-label="menu-categories">
+    <ul class="menu-list">
+      {% for category in site.categories %}
+      {% assign name = category[0] %}
+      {% assign posts = category[1] %}
+      {% assign selectedPosts = posts | where:"lang", page.lang %}
+
+      {% if selectedPosts.size > 0 %}
+      {%- if page.lang == 'pt-BR' -%}
+      {%- assign category_url = name | slugify: 'latin' | append: '/pt/' -%}
+      {%- assign see-more = 'ver mais' -%}
+      {%- else -%}
+      {%- assign category_url = name | slugify: 'latin' -%}
+      {%- assign see-more = 'see more' -%}
+      {%- endif -%}
+      <li class="menu-item"><a class="page-link" href='{{ "/category/" | append: category_url  | relative_url }}'>{{ name }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>

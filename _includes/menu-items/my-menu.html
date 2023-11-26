@@ -1,16 +1,7 @@
-{% for category in site.categories %}
-{% assign name = category[0] %}
-{% assign posts = category[1] %}
-{% assign selectedPosts = posts | where:"lang", page.lang %}
+<div>
+  <!-- Search -->
+  {%- include menu-items/search.html -%}
 
-{% if selectedPosts.size > 0 %}
-{%- if page.lang == 'pt-BR' -%}
-{%- assign category_url = name | slugify: 'latin' | append: '/pt/' -%}
-{%- assign see-more = 'ver mais' -%}
-{%- else -%}
-{%- assign category_url = name | slugify: 'latin' -%}
-{%- assign see-more = 'see more' -%}
-{%- endif -%}
-<a class="page-link hover-my-css" href='{{ "/category/" | append: category_url  | relative_url }}'>{{ name }}</a>
-{% endif %}
-{% endfor %}
+  <!-- Languages Menu -->
+  {%- include menu-items/language.html -%}
+</div>

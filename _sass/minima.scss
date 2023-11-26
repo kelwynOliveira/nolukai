@@ -1,45 +1,119 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
-
+// Fonts
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol" !default;
-$base-font-size: 16px !default;
+$base-font-size: 1rem !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
-
-$spacing-unit: 30px !default;
-$spacing-header: $spacing-unit * 4 !default;
-
-$text-color: #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color: #2a7ae2 !default;
-$title-link-color: #0a55bb !default;
-
-$grey-color: #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark: darken($grey-color, 25%) !default;
-
-$shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
-
 $table-text-align: left !default;
 
-// Width of the content area
+// Spacing
+$spacing-unit: 30px !default;
+$spacing-header: $spacing-unit * 3 !default;
+
+// colors
+$brand-color: #333377 !default;
+
+$dark-theme: "dark-theme";
+$light-theme: "light-theme";
+
+$primary-color-dark: "primary-color-dark";
+$primary-color: "primary-color";
+$primary-color-light: "primary-color-light";
+$accent-color: "accent-color";
+$accent-color-dark: "accent-color-dark";
+$primary-text-color: "primary-text-color";
+$secondary-text-color: "secondary-text-color";
+$divider-color: "divider-color";
+$general-background: "general-background";
+$general-background-light: "general-background-light";
+$shadow: "shadow";
+
+$themes: (
+  $light-theme: (
+    $primary-color-dark: #303f9f,
+    $primary-color: #3f51b5,
+    $primary-color-light: #dfdff1,
+    $accent-color: #0f67ff,
+    $accent-color-dark: #0043b6,
+    $primary-text-color: #000000,
+    $secondary-text-color: #575757,
+    $divider-color: #bdbdbd,
+    $general-background: #fafafa,
+    $general-background-light: #ffffff,
+    $shadow: 0 1rem 3rem #00000088,
+  ),
+  $dark-theme: (
+    $primary-color-dark: #303f9f,
+    $primary-color: #3f51b5,
+    $primary-color-light: #dfdff1,
+    $accent-color: #4fa7ff,
+    $accent-color-dark: #2779ca,
+    $primary-text-color: #ffffff,
+    $secondary-text-color: #a6a6a6,
+    $divider-color: #575757,
+    $general-background: #181918,
+    $general-background-light: #666666,
+    $shadow: 0 1rem 3rem #0000008c,
+  ),
+);
+
+@mixin themeProperty(
+  $theme,
+  $property,
+  $color,
+  $additionalPropertiesPositionIsFront,
+  $additionalProperties
+) {
+  @if $additionalPropertiesPositionIsFront {
+    #{$property}: unquote(
+      $additionalProperties + " " + map-get($theme, $color)
+    );
+  } @else {
+    #{$property}: unquote(
+      map-get($theme, $color) + " " + $additionalProperties
+    );
+  }
+}
+
+@mixin theme(
+  $property,
+  $color,
+  $additionalPropertiesPositionIsFront: false,
+  $additionalProperties: ""
+) {
+  $light: map-get($themes, $light-theme);
+  $dark: map-get($themes, $dark-theme);
+
+  @include themeProperty(
+    $light,
+    $property,
+    $color,
+    $additionalPropertiesPositionIsFront,
+    $additionalProperties
+  );
+
+  @media (prefers-color-scheme: dark) {
+    @include themeProperty(
+      $dark,
+      $property,
+      $color,
+      $additionalPropertiesPositionIsFront,
+      $additionalProperties
+    );
+  }
+}
+
 $content-width: 800px !default;
 
 $on-min: 450px !default;
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
@@ -51,5 +125,4 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
-@import "minima/base", "minima/layout", "minima/syntax-highlighting",
-  "minima/my-css";
+@import "minima/base", "minima/layout";
