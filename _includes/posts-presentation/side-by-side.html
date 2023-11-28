@@ -28,7 +28,7 @@
         {%- if page.lang == 'pt-BR' -%}
         {%- assign category_url = post.category | slugify: 'latin' | append: '/pt/' -%}
         {%- else -%}
-        {%- assign category_url = name | slugify: 'latin' -%}
+        {%- assign category_url = post.category | slugify: 'latin' -%}
         {%- endif -%}
         <a class="page-link" href='{{ "/category/" | append: category_url  | relative_url }}'>
           {{ post.category }}

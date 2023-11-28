@@ -17,6 +17,9 @@ $spacing-header: $spacing-unit * 3 !default;
 
 // colors
 $brand-color: #333377 !default;
+$brand-color-contrast: #fb0 !default;
+$header-contrast-color: #000000 !default;
+$menu-contrast-color: #ffffff !default;
 
 $dark-theme: "dark-theme";
 $light-theme: "light-theme";
@@ -57,7 +60,7 @@ $themes: (
     $secondary-text-color: #a6a6a6,
     $divider-color: #575757,
     $general-background: #181918,
-    $general-background-light: #666666,
+    $general-background-light: #333333,
     $shadow: 0 1rem 3rem #0000008c,
   ),
 );
@@ -125,4 +128,4 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
-@import "minima/base", "minima/layout";
+@import "minima/base", "minima/layout", "minima/syntax-highlighting";

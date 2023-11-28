@@ -5,10 +5,14 @@
  */
 .header {
   a {
-    @include theme("color", $primary-text-color);
+    color: $brand-color;
+    font-weight: 700;
+    &:hover {
+      color: $header-contrast-color;
+    }
   }
   .header-content {
-    @include theme("background-color", $general-background);
+    background-color: $brand-color-contrast;
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit;
     .container {
@@ -51,7 +55,7 @@
   .search-item {
     border-width: 1px;
     border-style: solid;
-    @include theme("border-color", $primary-text-color);
+    border-color: $brand-color;
     border-radius: 10px;
     a {
       display: flex;
@@ -59,9 +63,9 @@
       gap: 10px;
     }
     &:hover {
-      @include theme("border-color", $secondary-text-color);
+      border-color: $header-contrast-color;
       a {
-        @include theme("color", $secondary-text-color);
+        color: $header-contrast-color;
       }
     }
   }
@@ -79,19 +83,20 @@
 .categories-menu {
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
-  @include theme("background-color", $general-background-light);
+  background-color: #333;
   overflow: auto;
   .menu-list {
     .page-link {
       border-bottom-width: 1px;
       border-bottom-style: solid;
-      @include theme("border-color", $primary-text-color);
-      @include theme("color", $primary-text-color);
+      border-color: $brand-color-contrast;
+      color: $brand-color-contrast;
       text-transform: capitalize;
+      @include relative-font-size(1.125);
     }
     .page-link:hover {
       border: none;
-      @include theme("color", $secondary-text-color);
+      color: $menu-contrast-color;
     }
   }
 }
@@ -207,6 +212,9 @@
         .intercambio {
           background-color: #b19;
         }
+        .python {
+          background-color: #0072a3;
+        }
       }
     }
   }
@@ -308,6 +316,7 @@
       background-color: #1252dd;
       padding: 5px 10px;
       border-radius: 5px;
+      text-transform: uppercase;
       a {
         color: #ffffff;
       }

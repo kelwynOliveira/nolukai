@@ -166,12 +166,11 @@ blockquote {
  */
 pre,
 code {
+  color: #111;
   @include relative-font-size(0.9375);
-  border-width: 1px;
-  border-style: solid;
-  @include theme("border-color", $primary-color);
+  border: 1px solid lighten(#828282, 40%);
   border-radius: 3px;
-  @include theme("background-color", $general-background-light);
+  background-color: #eef;
 }
 
 code {
