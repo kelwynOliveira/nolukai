@@ -2,7 +2,7 @@
 layout: post
 lang: en
 permalink: cs50-python-conditionals/
-title: "[CS50's - Introduction to Python] Solving problems from topic - Conditionals"
+title: "[CS50's - Introduction to Python] Conditionals"
 date: 2023-09-28 18:00:00 -0400
 description: "In this post I will show how to solve the problems from topic 1 - Conditionals of CS50's - Introduction to Python."
 image: "/assets/python/cs50p-conditionals.jpg"
@@ -15,6 +15,8 @@ tags:
 ---
 
 In this post I will show how to solve the problems from topic 1 - Conditionals of CS50's - Introduction to Python course.
+
+#### Table of Contents
 
 <ul class="topics">
 <li><a href="#deep_thought">Deep thought</a></li>

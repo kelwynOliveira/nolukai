@@ -5,14 +5,14 @@
  */
 .header {
   a {
-    color: $brand-color;
+    color: $menu-contrast-color;
     font-weight: 700;
     &:hover {
-      color: $header-contrast-color;
+      color: $brand-color-contrast;
     }
   }
   .header-content {
-    background-color: $brand-color-contrast;
+    background-color: $brand-color;
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit;
     .container {
@@ -55,7 +55,7 @@
   .search-item {
     border-width: 1px;
     border-style: solid;
-    border-color: $brand-color;
+    border-color: $menu-contrast-color;
     border-radius: 10px;
     a {
       display: flex;
@@ -63,9 +63,9 @@
       gap: 10px;
     }
     &:hover {
-      border-color: $header-contrast-color;
+      border-color: $brand-color-contrast;
       a {
-        color: $header-contrast-color;
+        color: $brand-color-contrast;
       }
     }
   }
@@ -360,6 +360,18 @@
   padding-top: $spacing-unit * 6;
   padding-bottom: $spacing-unit;
 
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    border-left-width: 4px;
+    border-left-style: solid;
+    @include theme("border-left-color", $primary-color);
+    padding-left: calc(#{$spacing-unit} / 2);
+    padding-left: -webkit-calc(#{$spacing-unit} / 2);
+    margin-top: $spacing-unit * 2;
+  }
   h2 {
     @include relative-font-size(2);
 

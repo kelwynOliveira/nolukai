@@ -2,7 +2,7 @@
 layout: post
 lang: en
 permalink: cs50-python-functions-variables/
-title: "[CS50's - Introduction to Python] Solving problems from topic - Functions and Variables"
+title: "[CS50's - Introduction to Python] Functions, Variables"
 date: 2023-09-25 18:00:00 -0400
 description: "In this post I will show how to solve the problems from topic 0 - Functions and Variables of CS50's - Introduction to Python."
 image: "/assets/python/cs50p-functions-variables.jpg"
@@ -15,6 +15,8 @@ tags:
 ---
 
 In this post I show how to solve the problems from topic 0 - Functions and Variables of CS50's - Introduction to Python course.
+
+#### Table of Contents
 
 <ul class="topics">
 <li><a href="#indor_voice">Indoor Voice</a></li>

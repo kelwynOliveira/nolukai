@@ -2,7 +2,7 @@
 layout: post
 lang: en
 permalink: cs50-python-loops/
-title: "[CS50's - Introduction to Python] Solving problems from topic - Loops"
+title: "[CS50's - Introduction to Python] Loops"
 date: 2023-10-08 18:00:00 -0400
 description: "In this post I will show how to solve the problems from topic 2 - Loops of CS50's - Introduction to Python."
 image: "/assets/python/cs50p-loops.jpg"
@@ -15,6 +15,8 @@ tags:
 ---
 
 In this post I will show how to solve the problems from topic 2 - Loops of CS50's - Introduction to Python course.
+
+#### Table of Contents
 
 <ul class="topics">
 <li><a href="#camelcase">camelCase</a></li>
