@@ -1,0 +1,12 @@
+- practice problems: (https://cs50.harvard.edu/x/2023/problems/1/)
+  - Debug
+  - Half
+  - Prime
+- Lab1: (https://cs50.harvard.edu/x/2023/labs/1/)
+  - Population Growth
+- Problem set1: (https://cs50.harvard.edu/x/2023/psets/1/)
+  - Hello
+  - this version of Mario if feeling less comfortable
+  - this version of Mario if feeling more comfortable
+  - Cash if feeling less comfortable
+  - Credit if feeling more comfortable

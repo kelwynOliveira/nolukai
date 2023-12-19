@@ -1,0 +1,11 @@
+- Practice Problems (https://cs50.harvard.edu/x/2023/problems/3/)
+  - Recursive atoi, for practice creating recursive functions
+  - Average Temperatures, for practice working with structs and sorting algorithms
+  - Max, for practice passing arrays to functions and finding maximum values
+  - Snackbar, for practice using structs and writing a linear search algorithm
+- Lab 3 (https://cs50.harvard.edu/x/2023/labs/3/) 
+  - Sort
+- Problem Set 3 (https://cs50.harvard.edu/x/2023/psets/3/)
+  - Plurality
+  - Runoff, if feeling less comfortable
+  - Tideman, if feeling more comfortable

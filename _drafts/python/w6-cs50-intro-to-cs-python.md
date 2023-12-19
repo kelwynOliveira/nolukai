@@ -1,0 +1,16 @@
+- Practice Problems (https://cs50.harvard.edu/x/2023/problems/6/)
+  - Bank, from CS50’s Introduction to Programming with Python, for practice with strs
+  - Frank, Ian and Glen’s Letters, from CS50’s Introduction to Programming with Python, for practice with libraries and command-line arguments
+  - Jar, from CS50’s Introduction to Programming with Python, for an introduction to classes and object-oriented programming, if feeling more comfortable
+  - Seven Day Average, for practice with requests, dicts, and data, if feeling more comfortable
+  - Taqueria, from CS50’s Introduction to Programming with Python, for practice with dicts and try/except blocks
+-Lab 6 (https://cs50.harvard.edu/x/2023/labs/6/)
+  - World Cup
+- Problem Set 6 (https://cs50.harvard.edu/x/2023/psets/6/)
+  - Hello
+  - this version of Mario in Python, if feeling less comfortable
+  - this version of Mario in Python, if feeling more comfortable
+  - Cash in Python, if feeling less comfortable
+  - Credit in Python, if feeling more comfortable
+  - Readability in Python
+  - DNA in Python

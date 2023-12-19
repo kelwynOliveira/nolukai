@@ -1,0 +1,2 @@
+- como fazer chamada http
+- o comando defer

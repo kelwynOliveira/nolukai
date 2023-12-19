@@ -1,0 +1,11 @@
+- Practice Problems (https://cs50.harvard.edu/x/2023/problems/4/)
+  - Bottom Up, for practice working with images and metadata
+  - License, for practice working with files and file pointers
+- Lab 4 (https://cs50.harvard.edu/x/2023/labs/4/)
+  - Smiley
+  - Volume
+- Problem Set 4 (https://cs50.harvard.edu/x/2023/psets/4/)
+  - this version of Filter if feeling less comfortable
+  - this version of Filter if feeling more comfortable
+  - Recover
+  - Reverse

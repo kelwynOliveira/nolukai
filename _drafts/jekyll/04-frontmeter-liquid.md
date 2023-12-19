@@ -1,0 +1,3 @@
+- front metter
+- liquid template
+- permalinks

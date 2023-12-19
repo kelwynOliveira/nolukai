@@ -1,0 +1,3 @@
+- instalação
+- pastas/estrutura
+- compilação

@@ -1,0 +1,8 @@
+- Practice Problems (https://cs50.harvard.edu/x/2023/problems/7/)
+  - Favorites for practice using SELECT and UPDATE keywords
+  - Hall of Prophecy for practice refactoring a database, using CREATE
+- Lab 7 (https://cs50.harvard.edu/x/2023/labs/7/)
+  - Songs
+- Problem Set 7 (https://cs50.harvard.edu/x/2023/psets/7/)
+  - Movies
+  - Fiftyville

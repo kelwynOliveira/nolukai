@@ -1,0 +1,6 @@
+- Practice Problems (https://cs50.harvard.edu/x/2023/problems/5/)
+  - Trie
+- Lab 5 (https://cs50.harvard.edu/x/2023/labs/5/)
+  - Inheritance
+- Problem Set 5 (https://cs50.harvard.edu/x/2023/psets/5/)
+  - Speller

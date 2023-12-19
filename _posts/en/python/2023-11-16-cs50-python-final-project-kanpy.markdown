@@ -59,7 +59,7 @@ The following are the ways to interact with the board (case-insensitive):
 
 ## Screenshot of the command-line
 
-![Screenshot of the command-line running the Kanthon program. It shows the Kanban board and the actions user can do.](./Kanpy.PNG)
+![Screenshot of the command-line running the Kanthon program. It shows the Kanban board and the actions user can do.](https://raw.githubusercontent.com/kelwynOliveira/CS50_Python/main/final_project/Kanpy.PNG)
 
 ## Usage
 
